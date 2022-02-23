@@ -1,2 +1,3 @@
 # ping-host
-host avlie ping monitor
+Host survival monitoring by ping
+
