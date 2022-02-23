@@ -1,0 +1,45 @@
+[agent]
+interval = "30s"
+round_interval = false
+metric_batch_size = 1000
+metric_buffer_limit = 10000
+collection_jitter = "0s"
+flush_interval = "10s"
+flush_jitter = "0s"
+precision = "s"
+debug = true
+quiet = false
+logtarget = ""
+logfile = ""
+logfile_rotation_max_archives = 5
+hostname = ""
+omit_hostname = false
+
+[[outputs.influxdb]]
+urls = ["http://victoriametrics:8428"]
+database = "ping-hosts"
+timeout = "10s"
+
+[global_tags]
+point_name = "agent"
+
+[[inputs.ping]]
+  urls = ["www.baidu.com"]
+  count = 5
+  ping_interval = 0.5 
+  timeout = 1.0
+[[inputs.ping]]
+  urls = ["www.google.com"]
+  count = 5
+  ping_interval = 0.5 
+  timeout = 1.0
+[[inputs.ping]]
+  urls = ["www.sina.com"]
+  count = 5
+  ping_interval = 0.5 
+  timeout = 1.0
+[[inputs.ping]]
+  urls = ["www.hao123.com"]
+  count = 5
+  ping_interval = 0.5 
+  timeout = 1.0
