@@ -29,7 +29,7 @@ www.google.com
 # Effect picture
 
 ## Ping dashboard
-![ping-dashboard](https://github.com/ieasydevops/ping-hosts/blob/master/docs/images/ping-dashboard.png)
+![ping-dashboard](https://github.com/ieasydevops/ping-host/blob/main/docs/images/ping-dashboard.png)
 
 ## container monitor  dashboard
 
