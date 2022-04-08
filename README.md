@@ -4,7 +4,8 @@ Detect a large number of machines in batch (the scale is about several thousand)
 
 # Architecture:
 
-![Architecture](https://github.com/ieasydevops/ping-hosts/blob/master/docs/images/ping-hosts-arch.png)
+![Architecture](https://github.com/ieasydevops/ping-host/blob/main/docs/images/ping-hosts-arch.png)
+
 
 # Deploy
 
@@ -32,12 +33,12 @@ www.google.com
 
 ## container monitor  dashboard
 
-![contianer-dashboard](https://github.com/ieasydevops/ping-hosts/blob/master/docs/images/contianer-dashboard.png)
+![contianer-dashboard](https://github.com/ieasydevops/ping-host/blob/main/docs/images/ping-dashboard.png)
 
 
 ## db (victira-metrics) monitor dashboard
 
-![vm-dashboard](https://github.com/ieasydevops/ping-hosts/blob/master/docs/images/vm-dashboard.png)
+![vm-dashboard](https://github.com/ieasydevops/ping-host/blob/main/docs/images/vm-dashboard.png)
 
 
 
