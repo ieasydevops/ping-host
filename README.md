@@ -33,7 +33,7 @@ www.google.com
 
 ## container monitor  dashboard
 
-![contianer-dashboard](https://github.com/ieasydevops/ping-host/blob/main/docs/images/ping-dashboard.png)
+![contianer-dashboard](https://github.com/ieasydevops/ping-host/blob/main/docs/images/contianer-dashboard.png)
 
 
 ## db (victira-metrics) monitor dashboard
